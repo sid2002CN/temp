@@ -1,0 +1,1211 @@
+=> creating model 'vgg11'
+=> Dummy data is used!
+==PROF== Target process 108565 terminated before first instrumented API call.
+==PROF== Connected to process 108509 (/home/zw2686/miniconda3/envs/myenv/bin/python3.8)
+==PROF== Profiling "implicit_convolve_sgemm" - 1: 0%....50%....100% - 4 passes
+==PROF== Profiling "unrolled_elementwise_kernel" - 2: 0%....50%....100% - 4 passes
+==PROF== Profiling "vectorized_elementwise_kernel" - 3: 0%....50%....100% - 4 passes
+==PROF== Profiling "max_pool_forward_nchw" - 4: 0%....50%....100% - 4 passes
+==PROF== Profiling "nchwToNhwcKernel" - 5: 0%....50%....100% - 4 passes
+==PROF== Profiling "nchwToNhwcKernel" - 6: 0%....50%....100% - 4 passes
+==PROF== Profiling "kernel" - 7: 0%....50%....100% - 4 passes
+==PROF== Profiling "unrolled_elementwise_kernel" - 8: 0%....50%....100% - 4 passes
+==PROF== Profiling "vectorized_elementwise_kernel" - 9: 0%....50%....100% - 4 passes
+==PROF== Profiling "max_pool_forward_nchw" - 10: 0%....50%....100% - 4 passes
+==PROF== Profiling "nchwToNhwcKernel" - 11: 0%....50%....100% - 4 passes
+==PROF== Profiling "nchwToNhwcKernel" - 12: 0%....50%....100% - 4 passes
+==PROF== Profiling "kernel" - 13: 0%....50%....100% - 4 passes
+==PROF== Profiling "unrolled_elementwise_kernel" - 14: 0%....50%....100% - 4 passes
+==PROF== Profiling "vectorized_elementwise_kernel" - 15: 0%....50%....100% - 4 passes
+==PROF== Profiling "nchwToNhwcKernel" - 16: 0%....50%....100% - 4 passes
+==PROF== Profiling "nchwToNhwcKernel" - 17: 0%....50%....100% - 4 passes
+==PROF== Profiling "kernel" - 18: 0%....50%....100% - 4 passes
+==PROF== Profiling "unrolled_elementwise_kernel" - 19: 0%....50%....100% - 4 passes
+==PROF== Profiling "vectorized_elementwise_kernel" - 20: 0%....50%....100% - 4 passes
+==PROF== Profiling "max_pool_forward_nchw" - 21: 0%....50%....100% - 4 passes
+==PROF== Profiling "nchwToNhwcKernel" - 22: 0%....50%....100% - 4 passes
+==PROF== Profiling "nchwToNhwcKernel" - 23: 0%....50%....100% - 4 passes
+==PROF== Profiling "kernel" - 24: 0%....50%....100% - 4 passes
+==PROF== Profiling "unrolled_elementwise_kernel" - 25: 0%....50%....100% - 4 passes
+==PROF== Profiling "vectorized_elementwise_kernel" - 26: 0%....50%....100% - 4 passes
+==PROF== Profiling "nchwToNhwcKernel" - 27: 0%....50%....100% - 4 passes
+==PROF== Profiling "nchwToNhwcKernel" - 28: 0%....50%....100% - 4 passes
+==PROF== Profiling "kernel" - 29: 0%....50%....100% - 4 passes
+==PROF== Profiling "unrolled_elementwise_kernel" - 30: 0%....50%....100% - 4 passes
+==PROF== Profiling "vectorized_elementwise_kernel" - 31: 0%....50%....100% - 4 passes
+==PROF== Profiling "max_pool_forward_nchw" - 32: 0%....50%....100% - 4 passes
+==PROF== Profiling "nchwToNhwcKernel" - 33: 0%....50%....100% - 4 passes
+==PROF== Profiling "nchwToNhwcKernel" - 34: 0%....50%....100% - 4 passes
+==PROF== Profiling "kernel" - 35: 0%....50%....100% - 4 passes
+==PROF== Profiling "unrolled_elementwise_kernel" - 36: 0%....50%....100% - 4 passes
+==PROF== Profiling "vectorized_elementwise_kernel" - 37: 0%....50%....100% - 4 passes
+==PROF== Profiling "nchwToNhwcKernel" - 38: 0%....50%....100% - 4 passes
+==PROF== Profiling "nchwToNhwcKernel" - 39: 0%....50%....100% - 4 passes
+==PROF== Profiling "kernel" - 40: 0%....50%....100% - 4 passes
+==PROF== Profiling "unrolled_elementwise_kernel" - 41: 0%....50%....100% - 4 passes
+==PROF== Profiling "vectorized_elementwise_kernel" - 42: 0%....50%....100% - 4 passes
+==PROF== Profiling "max_pool_forward_nchw" - 43: 0%....50%....100% - 4 passes
+==PROF== Profiling "adaptive_average_pool" - 44: 0%....50%....100% - 4 passes
+==PROF== Profiling "unrolled_elementwise_kernel" - 45: 0%....50%....100% - 4 passes
+==PROF== Profiling "Kernel" - 46: 0%....50%....100% - 4 passes
+==PROF== Profiling "vectorized_elementwise_kernel" - 47: 0%....50%....100% - 4 passes
+==PROF== Profiling "fused_dropout_kernel_vec" - 48: 0%....50%....100% - 4 passes
+==PROF== Profiling "unrolled_elementwise_kernel" - 49: 0%....50%....100% - 4 passes
+==PROF== Profiling "Kernel" - 50: 0%....50%....100% - 4 passes
+==PROF== Profiling "vectorized_elementwise_kernel" - 51: 0%....50%....100% - 4 passes
+==PROF== Profiling "fused_dropout_kernel_vec" - 52: 0%....50%....100% - 4 passes
+==PROF== Profiling "unrolled_elementwise_kernel" - 53: 0%....50%....100% - 4 passes
+==PROF== Profiling "Kernel" - 54: 0%....50%....100% - 4 passes
+==PROF== Profiling "splitKreduce_kernel" - 55: 0%....50%....100% - 4 passes
+==PROF== Profiling "softmax_warp_forward" - 56: 0%....50%....100% - 4 passes
+==PROF== Profiling "nll_loss_forward_reduce_cuda_..." - 57: 0%....50%....100% - 4 passes
+==PROF== Disconnected from process 108509
+==PROF== Target process 117443 terminated before first instrumented API call.
+==PROF== Target process 117455 terminated before first instrumented API call.
+==PROF== Target process 117397 terminated before first instrumented API call.
+==PROF== Target process 117428 terminated before first instrumented API call.
+[108509] python3.8@127.0.0.1
+  void implicit_convolve_sgemm<float, float, 1024, 5, 5, 3, 3, 3, 1, false, true, true>(int, int, int, float const*, int, float*, float const*, kernel_conv_params, unsigned long long, int, float, float, int, float const*, float const*, bool, int, int), 2023-Oct-31 16:36:19, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.avg                                                                 481,427.53
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.max                                                                    601,522
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.min                                                                    439,683
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.sum                                                                 51,994,173
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.avg                                                        210,432.90
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.max                                                           265,803
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.min                                                           190,294
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.sum                                                        22,726,753
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.avg                                                       270,994.63
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.max                                                          335,719
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.min                                                          249,389
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.sum                                                       29,267,420
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    smsp__sass_thread_inst_executed_op_ffma_pred_on.sum*2                                                         (!) n/a
+    smsp__sass_thread_inst_executed_op_fmul_pred_on.sum                               inst                    205,520,896
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::unrolled_elementwise_kernel<at::native::BinaryFunctor<float, float, float, at::native::AddFunctor<float> >, at::detail::Array<char*, 3>, OffsetCalculator<2, unsigned int, false>, OffsetCalculator<1, unsigned int, false>, at::native::memory::LoadWithoutCast, at::native::memory::StoreWithoutCast>(int, at::native::BinaryFunctor<float, float, float, at::native::AddFunctor<float> >, at::detail::Array<char*, 3>, OffsetCalculator<2, unsigned int, false>, OffsetCalculator<1, unsigned int, false>, at::native::memory::LoadWithoutCast, at::native::memory::StoreWithoutCast), 2023-Oct-31 16:36:20, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.avg                                                                 190,895.91
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.max                                                                    194,441
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.min                                                                    189,899
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.sum                                                                 20,616,758
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.avg                                                        126,559.73
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.max                                                           128,888
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.min                                                           125,796
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.sum                                                        13,668,451
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.avg                                                        64,336.18
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.max                                                           65,553
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.min                                                           64,103
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.sum                                                        6,948,307
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    smsp__sass_thread_inst_executed_op_ffma_pred_on.sum*2                                                         (!) n/a
+    smsp__sass_thread_inst_executed_op_fmul_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>), 2023-Oct-31 16:36:21, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.avg                                                                 132,295.71
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.max                                                                    153,731
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.min                                                                    123,387
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.sum                                                                 14,287,937
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.avg                                                         69,100.35
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.max                                                            80,304
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.min                                                            64,122
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.sum                                                         7,462,838
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.avg                                                        63,195.36
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.max                                                           73,427
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.min                                                           59,265
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.sum                                                        6,825,099
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    smsp__sass_thread_inst_executed_op_ffma_pred_on.sum*2                                                         (!) n/a
+    smsp__sass_thread_inst_executed_op_fmul_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::(anonymous namespace)::max_pool_forward_nchw<float, float>(int, float const*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, float*, long*), 2023-Oct-31 16:36:22, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.avg                                                                 176,884.97
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.max                                                                    179,871
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.min                                                                    173,551
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.sum                                                                 19,103,577
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.avg                                                        128,200.61
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.max                                                           130,702
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.min                                                           125,987
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.sum                                                        13,845,666
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.avg                                                        48,684.36
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.max                                                           49,169
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.min                                                           47,564
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.sum                                                        5,257,911
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    smsp__sass_thread_inst_executed_op_ffma_pred_on.sum*2                                                         (!) n/a
+    smsp__sass_thread_inst_executed_op_fmul_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void nchwToNhwcKernel<float, float, float, true, false, (cudnnKernelDataType_t)2>(int, int, int, int, float const*, float*, float, float), 2023-Oct-31 16:36:23, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.avg                                                                  34,612.77
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.max                                                                     36,353
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.min                                                                     32,156
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.sum                                                                  3,738,179
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.avg                                                         17,155.40
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.max                                                            18,017
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.min                                                            16,168
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.sum                                                         1,852,783
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.avg                                                        17,457.37
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.max                                                           18,336
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.min                                                           15,988
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.sum                                                        1,885,396
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    smsp__sass_thread_inst_executed_op_ffma_pred_on.sum*2                                                         (!) n/a
+    smsp__sass_thread_inst_executed_op_fmul_pred_on.sum                               inst                     51,380,224
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void nchwToNhwcKernel<float, float, float, true, false, (cudnnKernelDataType_t)2>(int, int, int, int, float const*, float*, float, float), 2023-Oct-31 16:36:24, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.avg                                                                     103.84
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.max                                                                        139
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.min                                                                         86
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.sum                                                                     11,215
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.avg                                                             77.46
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.max                                                               105
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.min                                                                64
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.sum                                                             8,366
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.avg                                                            26.38
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.max                                                               34
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.min                                                               22
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.sum                                                            2,849
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    smsp__sass_thread_inst_executed_op_ffma_pred_on.sum*2                                                         (!) n/a
+    smsp__sass_thread_inst_executed_op_fmul_pred_on.sum                               inst                         73,728
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void xmma_new::gemm::kernel<xmma_new::implicit_gemm::fprop::Kernel_traits<xmma_new::Ampere_hmma_tf32_traits<unsigned int, float>, xmma_new::Cta_tile<xmma_new::Ampere, 128, 128, 16, 2, 2, 1, 1, 1>, xmma_new::implicit_gemm::fprop::Gmem_tile_a_t<xmma_new::Ampere_hmma_tf32_traits<unsigned int, float>, xmma_new::Cta_tile<xmma_new::Ampere, 128, 128, 16, 2, 2, 1, 1, 1>, xmma_new::implicit_gemm::Input_related<0, 0, 0, false>, 16, false, xmma_new::implicit_gemm::fprop::Gmem_tile_base_a<xmma_new::Ampere_hmma_tf32_traits<unsigned int, float>, xmma_new::Cta_tile<xmma_new::Ampere, 128, 128, 16, 2, 2, 1, 1, 1>, xmma_new::implicit_gemm::Input_related<0, 0, 0, false>, 16, xmma_new::Row, 16, 128> >, xmma_new::implicit_gemm::fprop::Gmem_tile_c_n<xmma_new::Ampere_hmma_tf32_traits<unsigned int, float>, xmma_new::Cta_tile<xmma_new::Ampere, 128, 128, 16, 2, 2, 1, 1, 1>, 16, xmma_new::Fragment_c<xmma_new::Ampere_hmma_tf32_traits<unsigned int, float>, xmma_new::Cta_tile<xmma_new::Ampere, 128, 128, 16, 2, 2, 1, 1, 1>, false>, false>, xmma_new::implicit_gemm::Input_related<0, 0, 0, false>, 4> >(xmma_new::implicit_gemm::fprop::Kernel_traits<xmma_new::Ampere_hmma_tf32_traits<unsigned int, float>, xmma_new::Cta_tile<xmma_new::Ampere, 128, 128, 16, 2, 2, 1, 1, 1>, xmma_new::implicit_gemm::fprop::Gmem_tile_a_t<xmma_new::Ampere_hmma_tf32_traits<unsigned int, float>, xmma_new::Cta_tile<xmma_new::Ampere, 128, 128, 16, 2, 2, 1, 1, 1>, xmma_new::implicit_gemm::Input_related<0, 0, 0, false>, 16, false, xmma_new::implicit_gemm::fprop::Gmem_tile_base_a<xmma_new::Ampere_hmma_tf32_traits<unsigned int, float>, xmma_new::Cta_tile<xmma_new::Ampere, 128, 128, 16, 2, 2, 1, 1, 1>, xmma_new::implicit_gemm::Input_related<0, 0, 0, false>, 16, xmma_new::Row, 16, 128> >, xmma_new::implicit_gemm::fprop::Gmem_tile_c_n<xmma_new::Ampere_hmma_tf32_traits<unsigned int, float>, xmma_new::Cta_tile<xmma_new::Ampere, 128, 128, 16, 2, 2, 1, 1, 1>, 16, xmma_new::Fragment_c<xmma_new::Ampere_hmma_tf32_traits<unsigned int, float>, xmma_new::Cta_tile<xmma_new::Ampere, 128, 128, 16, 2, 2, 1, 1, 1>, false>, false>, xmma_new::implicit_gemm::Input_related<0, 0, 0, false>, 4>::Params), 2023-Oct-31 16:36:26, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.avg                                                                  48,191.29
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.max                                                                     50,696
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.min                                                                     46,392
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.sum                                                                  5,204,659
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.avg                                                                 0
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.max                                                                 0
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.min                                                                 0
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.sum                                                                 0
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.avg                                                        48,191.29
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.max                                                           50,696
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.min                                                           46,392
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.sum                                                        5,204,659
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    smsp__sass_thread_inst_executed_op_ffma_pred_on.sum*2                                                         (!) n/a
+    smsp__sass_thread_inst_executed_op_fmul_pred_on.sum                               inst                    205,520,896
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::unrolled_elementwise_kernel<at::native::BinaryFunctor<float, float, float, at::native::AddFunctor<float> >, at::detail::Array<char*, 3>, OffsetCalculator<2, unsigned int, false>, OffsetCalculator<1, unsigned int, false>, at::native::memory::LoadWithoutCast, at::native::memory::StoreWithoutCast>(int, at::native::BinaryFunctor<float, float, float, at::native::AddFunctor<float> >, at::detail::Array<char*, 3>, OffsetCalculator<2, unsigned int, false>, OffsetCalculator<1, unsigned int, false>, at::native::memory::LoadWithoutCast, at::native::memory::StoreWithoutCast), 2023-Oct-31 16:36:27, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.avg                                                                  95,531.47
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.max                                                                     97,304
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.min                                                                     95,025
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.sum                                                                 10,317,399
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.avg                                                         63,317.21
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.max                                                            64,505
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.min                                                            62,882
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.sum                                                         6,838,259
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.avg                                                        32,214.26
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.max                                                           32,799
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.min                                                           32,143
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.sum                                                        3,479,140
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    smsp__sass_thread_inst_executed_op_ffma_pred_on.sum*2                                                         (!) n/a
+    smsp__sass_thread_inst_executed_op_fmul_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>), 2023-Oct-31 16:36:28, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.avg                                                                  66,160.30
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.max                                                                     78,456
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.min                                                                     58,602
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.sum                                                                  7,145,312
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.avg                                                         34,615.16
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.max                                                            40,857
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.min                                                            30,267
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.sum                                                         3,738,437
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.avg                                                        31,545.14
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.max                                                           37,599
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.min                                                           28,335
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.sum                                                        3,406,875
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    smsp__sass_thread_inst_executed_op_ffma_pred_on.sum*2                                                         (!) n/a
+    smsp__sass_thread_inst_executed_op_fmul_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::(anonymous namespace)::max_pool_forward_nchw<float, float>(int, float const*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, float*, long*), 2023-Oct-31 16:36:29, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.avg                                                                  98,400.96
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.max                                                                    100,529
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.min                                                                     96,828
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.sum                                                                 10,627,304
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.avg                                                         74,067.71
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.max                                                            76,097
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.min                                                            72,846
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.sum                                                         7,999,313
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.avg                                                        24,333.25
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.max                                                           24,432
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.min                                                           23,982
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.sum                                                        2,627,991
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    smsp__sass_thread_inst_executed_op_ffma_pred_on.sum*2                                                         (!) n/a
+    smsp__sass_thread_inst_executed_op_fmul_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void nchwToNhwcKernel<float, float, float, true, false, (cudnnKernelDataType_t)2>(int, int, int, int, float const*, float*, float, float), 2023-Oct-31 16:36:30, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.avg                                                                  17,378.92
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.max                                                                     18,842
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.min                                                                     15,903
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.sum                                                                  1,876,923
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.avg                                                          8,419.10
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.max                                                             9,142
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.min                                                             7,575
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.sum                                                           909,263
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.avg                                                         8,959.81
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.max                                                            9,700
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.min                                                            8,328
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.sum                                                          967,660
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    smsp__sass_thread_inst_executed_op_ffma_pred_on.sum*2                                                         (!) n/a
+    smsp__sass_thread_inst_executed_op_fmul_pred_on.sum                               inst                     25,690,112
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void nchwToNhwcKernel<float, float, float, true, false, (cudnnKernelDataType_t)2>(int, int, int, int, float const*, float*, float, float), 2023-Oct-31 16:36:31, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.avg                                                                     421.53
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.max                                                                        490
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.min                                                                        347
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.sum                                                                     45,525
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.avg                                                            310.79
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.max                                                               368
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.min                                                               259
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.sum                                                            33,565
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.avg                                                           110.74
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.max                                                              122
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.min                                                               88
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.sum                                                           11,960
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    smsp__sass_thread_inst_executed_op_ffma_pred_on.sum*2                                                         (!) n/a
+    smsp__sass_thread_inst_executed_op_fmul_pred_on.sum                               inst                        294,912
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void xmma_new::gemm::kernel<xmma_new::implicit_gemm::fprop::Kernel_traits<xmma_new::Ampere_hmma_tf32_traits<unsigned int, float>, xmma_new::Cta_tile<xmma_new::Ampere, 128, 128, 16, 2, 2, 1, 1, 1>, xmma_new::implicit_gemm::fprop::Gmem_tile_a_t<xmma_new::Ampere_hmma_tf32_traits<unsigned int, float>, xmma_new::Cta_tile<xmma_new::Ampere, 128, 128, 16, 2, 2, 1, 1, 1>, xmma_new::implicit_gemm::Input_related<0, 0, 0, false>, 16, false, xmma_new::implicit_gemm::fprop::Gmem_tile_base_a<xmma_new::Ampere_hmma_tf32_traits<unsigned int, float>, xmma_new::Cta_tile<xmma_new::Ampere, 128, 128, 16, 2, 2, 1, 1, 1>, xmma_new::implicit_gemm::Input_related<0, 0, 0, false>, 16, xmma_new::Row, 16, 128> >, xmma_new::implicit_gemm::fprop::Gmem_tile_c_n<xmma_new::Ampere_hmma_tf32_traits<unsigned int, float>, xmma_new::Cta_tile<xmma_new::Ampere, 128, 128, 16, 2, 2, 1, 1, 1>, 16, xmma_new::Fragment_c<xmma_new::Ampere_hmma_tf32_traits<unsigned int, float>, xmma_new::Cta_tile<xmma_new::Ampere, 128, 128, 16, 2, 2, 1, 1, 1>, false>, false>, xmma_new::implicit_gemm::Input_related<0, 0, 0, false>, 4> >(xmma_new::implicit_gemm::fprop::Kernel_traits<xmma_new::Ampere_hmma_tf32_traits<unsigned int, float>, xmma_new::Cta_tile<xmma_new::Ampere, 128, 128, 16, 2, 2, 1, 1, 1>, xmma_new::implicit_gemm::fprop::Gmem_tile_a_t<xmma_new::Ampere_hmma_tf32_traits<unsigned int, float>, xmma_new::Cta_tile<xmma_new::Ampere, 128, 128, 16, 2, 2, 1, 1, 1>, xmma_new::implicit_gemm::Input_related<0, 0, 0, false>, 16, false, xmma_new::implicit_gemm::fprop::Gmem_tile_base_a<xmma_new::Ampere_hmma_tf32_traits<unsigned int, float>, xmma_new::Cta_tile<xmma_new::Ampere, 128, 128, 16, 2, 2, 1, 1, 1>, xmma_new::implicit_gemm::Input_related<0, 0, 0, false>, 16, xmma_new::Row, 16, 128> >, xmma_new::implicit_gemm::fprop::Gmem_tile_c_n<xmma_new::Ampere_hmma_tf32_traits<unsigned int, float>, xmma_new::Cta_tile<xmma_new::Ampere, 128, 128, 16, 2, 2, 1, 1, 1>, 16, xmma_new::Fragment_c<xmma_new::Ampere_hmma_tf32_traits<unsigned int, float>, xmma_new::Cta_tile<xmma_new::Ampere, 128, 128, 16, 2, 2, 1, 1, 1>, false>, false>, xmma_new::implicit_gemm::Input_related<0, 0, 0, false>, 4>::Params), 2023-Oct-31 16:36:32, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.avg                                                                  30,365.97
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.max                                                                     31,825
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.min                                                                     29,159
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.sum                                                                  3,279,525
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.avg                                                                 0
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.max                                                                 0
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.min                                                                 0
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.sum                                                                 0
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.avg                                                        30,365.97
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.max                                                           31,825
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.min                                                           29,159
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.sum                                                        3,279,525
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    smsp__sass_thread_inst_executed_op_ffma_pred_on.sum*2                                                         (!) n/a
+    smsp__sass_thread_inst_executed_op_fmul_pred_on.sum                               inst                    102,760,448
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::unrolled_elementwise_kernel<at::native::BinaryFunctor<float, float, float, at::native::AddFunctor<float> >, at::detail::Array<char*, 3>, OffsetCalculator<2, unsigned int, false>, OffsetCalculator<1, unsigned int, false>, at::native::memory::LoadWithoutCast, at::native::memory::StoreWithoutCast>(int, at::native::BinaryFunctor<float, float, float, at::native::AddFunctor<float> >, at::detail::Array<char*, 3>, OffsetCalculator<2, unsigned int, false>, OffsetCalculator<1, unsigned int, false>, at::native::memory::LoadWithoutCast, at::native::memory::StoreWithoutCast), 2023-Oct-31 16:36:34, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.avg                                                                  47,835.05
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.max                                                                     48,736
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.min                                                                     47,511
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.sum                                                                  5,166,185
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.avg                                                         31,686.51
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.max                                                            32,231
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.min                                                            31,432
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.sum                                                         3,422,143
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.avg                                                        16,148.54
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.max                                                           16,505
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.min                                                           16,079
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.sum                                                        1,744,042
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    smsp__sass_thread_inst_executed_op_ffma_pred_on.sum*2                                                         (!) n/a
+    smsp__sass_thread_inst_executed_op_fmul_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>), 2023-Oct-31 16:36:35, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.avg                                                                  33,145.83
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.max                                                                     40,038
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.min                                                                     28,999
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.sum                                                                  3,579,750
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.avg                                                         17,346.41
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.max                                                            20,160
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.min                                                            16,156
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.sum                                                         1,873,412
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.avg                                                        15,799.43
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.max                                                           19,878
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.min                                                           12,843
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.sum                                                        1,706,338
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    smsp__sass_thread_inst_executed_op_ffma_pred_on.sum*2                                                         (!) n/a
+    smsp__sass_thread_inst_executed_op_fmul_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void nchwToNhwcKernel<float, float, float, true, false, (cudnnKernelDataType_t)2>(int, int, int, int, float const*, float*, float, float), 2023-Oct-31 16:36:36, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.avg                                                                  34,432.25
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.max                                                                     37,823
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.min                                                                     32,363
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.sum                                                                  3,718,683
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.avg                                                         16,698.55
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.max                                                            18,502
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.min                                                            15,371
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.sum                                                         1,803,443
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.avg                                                        17,733.70
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.max                                                           19,321
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.min                                                           16,992
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.sum                                                        1,915,240
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    smsp__sass_thread_inst_executed_op_ffma_pred_on.sum*2                                                         (!) n/a
+    smsp__sass_thread_inst_executed_op_fmul_pred_on.sum                               inst                     51,380,224
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void nchwToNhwcKernel<float, float, float, true, false, (cudnnKernelDataType_t)2>(int, int, int, int, float const*, float*, float, float), 2023-Oct-31 16:36:37, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.avg                                                                     851.83
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.max                                                                        989
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.min                                                                        716
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.sum                                                                     91,998
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.avg                                                            632.80
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.max                                                               709
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.min                                                               558
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.sum                                                            68,342
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.avg                                                           219.04
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.max                                                              280
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.min                                                              158
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.sum                                                           23,656
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    smsp__sass_thread_inst_executed_op_ffma_pred_on.sum*2                                                         (!) n/a
+    smsp__sass_thread_inst_executed_op_fmul_pred_on.sum                               inst                        589,824
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void xmma_new::gemm::kernel<xmma_new::implicit_gemm::fprop::Kernel_traits<xmma_new::Ampere_hmma_tf32_traits<unsigned int, float>, xmma_new::Cta_tile<xmma_new::Ampere, 128, 128, 16, 2, 2, 1, 1, 1>, xmma_new::implicit_gemm::fprop::Gmem_tile_a_t<xmma_new::Ampere_hmma_tf32_traits<unsigned int, float>, xmma_new::Cta_tile<xmma_new::Ampere, 128, 128, 16, 2, 2, 1, 1, 1>, xmma_new::implicit_gemm::Input_related<0, 0, 0, false>, 16, false, xmma_new::implicit_gemm::fprop::Gmem_tile_base_a<xmma_new::Ampere_hmma_tf32_traits<unsigned int, float>, xmma_new::Cta_tile<xmma_new::Ampere, 128, 128, 16, 2, 2, 1, 1, 1>, xmma_new::implicit_gemm::Input_related<0, 0, 0, false>, 16, xmma_new::Row, 16, 128> >, xmma_new::implicit_gemm::fprop::Gmem_tile_c_n<xmma_new::Ampere_hmma_tf32_traits<unsigned int, float>, xmma_new::Cta_tile<xmma_new::Ampere, 128, 128, 16, 2, 2, 1, 1, 1>, 16, xmma_new::Fragment_c<xmma_new::Ampere_hmma_tf32_traits<unsigned int, float>, xmma_new::Cta_tile<xmma_new::Ampere, 128, 128, 16, 2, 2, 1, 1, 1>, false>, false>, xmma_new::implicit_gemm::Input_related<0, 0, 0, false>, 4> >(xmma_new::implicit_gemm::fprop::Kernel_traits<xmma_new::Ampere_hmma_tf32_traits<unsigned int, float>, xmma_new::Cta_tile<xmma_new::Ampere, 128, 128, 16, 2, 2, 1, 1, 1>, xmma_new::implicit_gemm::fprop::Gmem_tile_a_t<xmma_new::Ampere_hmma_tf32_traits<unsigned int, float>, xmma_new::Cta_tile<xmma_new::Ampere, 128, 128, 16, 2, 2, 1, 1, 1>, xmma_new::implicit_gemm::Input_related<0, 0, 0, false>, 16, false, xmma_new::implicit_gemm::fprop::Gmem_tile_base_a<xmma_new::Ampere_hmma_tf32_traits<unsigned int, float>, xmma_new::Cta_tile<xmma_new::Ampere, 128, 128, 16, 2, 2, 1, 1, 1>, xmma_new::implicit_gemm::Input_related<0, 0, 0, false>, 16, xmma_new::Row, 16, 128> >, xmma_new::implicit_gemm::fprop::Gmem_tile_c_n<xmma_new::Ampere_hmma_tf32_traits<unsigned int, float>, xmma_new::Cta_tile<xmma_new::Ampere, 128, 128, 16, 2, 2, 1, 1, 1>, 16, xmma_new::Fragment_c<xmma_new::Ampere_hmma_tf32_traits<unsigned int, float>, xmma_new::Cta_tile<xmma_new::Ampere, 128, 128, 16, 2, 2, 1, 1, 1>, false>, false>, xmma_new::implicit_gemm::Input_related<0, 0, 0, false>, 4>::Params), 2023-Oct-31 16:36:38, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.avg                                                                  42,892.21
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.max                                                                     44,854
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.min                                                                     41,864
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.sum                                                                  4,632,359
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.avg                                                                 0
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.max                                                                 0
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.min                                                                 0
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.sum                                                                 0
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.avg                                                        42,892.21
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.max                                                           44,854
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.min                                                           41,864
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.sum                                                        4,632,359
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    smsp__sass_thread_inst_executed_op_ffma_pred_on.sum*2                                                         (!) n/a
+    smsp__sass_thread_inst_executed_op_fmul_pred_on.sum                               inst                    102,760,448
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::unrolled_elementwise_kernel<at::native::BinaryFunctor<float, float, float, at::native::AddFunctor<float> >, at::detail::Array<char*, 3>, OffsetCalculator<2, unsigned int, false>, OffsetCalculator<1, unsigned int, false>, at::native::memory::LoadWithoutCast, at::native::memory::StoreWithoutCast>(int, at::native::BinaryFunctor<float, float, float, at::native::AddFunctor<float> >, at::detail::Array<char*, 3>, OffsetCalculator<2, unsigned int, false>, OffsetCalculator<1, unsigned int, false>, at::native::memory::LoadWithoutCast, at::native::memory::StoreWithoutCast), 2023-Oct-31 16:36:39, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.avg                                                                  47,830.08
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.max                                                                     48,697
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.min                                                                     47,505
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.sum                                                                  5,165,649
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.avg                                                         31,700.69
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.max                                                            32,271
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.min                                                            31,490
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.sum                                                         3,423,674
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.avg                                                        16,129.40
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.max                                                           16,426
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.min                                                           16,015
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.sum                                                        1,741,975
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    smsp__sass_thread_inst_executed_op_ffma_pred_on.sum*2                                                         (!) n/a
+    smsp__sass_thread_inst_executed_op_fmul_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>), 2023-Oct-31 16:36:41, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.avg                                                                  33,158.27
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.max                                                                     38,391
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.min                                                                     29,684
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.sum                                                                  3,581,093
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.avg                                                         17,366.79
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.max                                                            20,036
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.min                                                            15,481
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.sum                                                         1,875,613
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.avg                                                        15,791.48
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.max                                                           18,355
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.min                                                           14,203
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.sum                                                        1,705,480
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    smsp__sass_thread_inst_executed_op_ffma_pred_on.sum*2                                                         (!) n/a
+    smsp__sass_thread_inst_executed_op_fmul_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::(anonymous namespace)::max_pool_forward_nchw<float, float>(int, float const*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, float*, long*), 2023-Oct-31 16:36:42, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.avg                                                                  57,679.31
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.max                                                                     58,737
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.min                                                                     56,390
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.sum                                                                  6,229,365
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.avg                                                         45,414.47
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.max                                                            46,317
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.min                                                            44,686
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.sum                                                         4,904,763
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.avg                                                        12,264.83
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.max                                                           12,420
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.min                                                           11,704
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.sum                                                        1,324,602
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    smsp__sass_thread_inst_executed_op_ffma_pred_on.sum*2                                                         (!) n/a
+    smsp__sass_thread_inst_executed_op_fmul_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void nchwToNhwcKernel<float, float, float, true, false, (cudnnKernelDataType_t)2>(int, int, int, int, float const*, float*, float, float), 2023-Oct-31 16:36:43, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.avg                                                                   9,040.53
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.max                                                                     10,112
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.min                                                                      8,223
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.sum                                                                    976,377
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.avg                                                          4,477.76
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.max                                                             5,063
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.min                                                             4,038
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.sum                                                           483,598
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.avg                                                         4,562.77
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.max                                                            5,049
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.min                                                            4,185
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.sum                                                          492,779
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    smsp__sass_thread_inst_executed_op_ffma_pred_on.sum*2                                                         (!) n/a
+    smsp__sass_thread_inst_executed_op_fmul_pred_on.sum                               inst                     12,845,056
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void nchwToNhwcKernel<float, float, float, true, false, (cudnnKernelDataType_t)2>(int, int, int, int, float const*, float*, float, float), 2023-Oct-31 16:36:44, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.avg                                                                   1,726.23
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.max                                                                      1,866
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.min                                                                      1,528
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.sum                                                                    186,433
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.avg                                                          1,286.55
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.max                                                             1,403
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.min                                                             1,143
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.sum                                                           138,947
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.avg                                                           439.69
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.max                                                              463
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.min                                                              385
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.sum                                                           47,486
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    smsp__sass_thread_inst_executed_op_ffma_pred_on.sum*2                                                         (!) n/a
+    smsp__sass_thread_inst_executed_op_fmul_pred_on.sum                               inst                      1,179,648
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void xmma_new::gemm::kernel<xmma_new::implicit_gemm::fprop::Kernel_traits<xmma_new::Ampere_hmma_tf32_traits<unsigned int, float>, xmma_new::Cta_tile<xmma_new::Ampere, 128, 128, 16, 2, 2, 1, 1, 1>, xmma_new::implicit_gemm::fprop::Gmem_tile_a_t<xmma_new::Ampere_hmma_tf32_traits<unsigned int, float>, xmma_new::Cta_tile<xmma_new::Ampere, 128, 128, 16, 2, 2, 1, 1, 1>, xmma_new::implicit_gemm::Input_related<0, 0, 0, false>, 16, false, xmma_new::implicit_gemm::fprop::Gmem_tile_base_a<xmma_new::Ampere_hmma_tf32_traits<unsigned int, float>, xmma_new::Cta_tile<xmma_new::Ampere, 128, 128, 16, 2, 2, 1, 1, 1>, xmma_new::implicit_gemm::Input_related<0, 0, 0, false>, 16, xmma_new::Row, 16, 128> >, xmma_new::implicit_gemm::fprop::Gmem_tile_c_n<xmma_new::Ampere_hmma_tf32_traits<unsigned int, float>, xmma_new::Cta_tile<xmma_new::Ampere, 128, 128, 16, 2, 2, 1, 1, 1>, 16, xmma_new::Fragment_c<xmma_new::Ampere_hmma_tf32_traits<unsigned int, float>, xmma_new::Cta_tile<xmma_new::Ampere, 128, 128, 16, 2, 2, 1, 1, 1>, false>, false>, xmma_new::implicit_gemm::Input_related<0, 0, 0, false>, 4> >(xmma_new::implicit_gemm::fprop::Kernel_traits<xmma_new::Ampere_hmma_tf32_traits<unsigned int, float>, xmma_new::Cta_tile<xmma_new::Ampere, 128, 128, 16, 2, 2, 1, 1, 1>, xmma_new::implicit_gemm::fprop::Gmem_tile_a_t<xmma_new::Ampere_hmma_tf32_traits<unsigned int, float>, xmma_new::Cta_tile<xmma_new::Ampere, 128, 128, 16, 2, 2, 1, 1, 1>, xmma_new::implicit_gemm::Input_related<0, 0, 0, false>, 16, false, xmma_new::implicit_gemm::fprop::Gmem_tile_base_a<xmma_new::Ampere_hmma_tf32_traits<unsigned int, float>, xmma_new::Cta_tile<xmma_new::Ampere, 128, 128, 16, 2, 2, 1, 1, 1>, xmma_new::implicit_gemm::Input_related<0, 0, 0, false>, 16, xmma_new::Row, 16, 128> >, xmma_new::implicit_gemm::fprop::Gmem_tile_c_n<xmma_new::Ampere_hmma_tf32_traits<unsigned int, float>, xmma_new::Cta_tile<xmma_new::Ampere, 128, 128, 16, 2, 2, 1, 1, 1>, 16, xmma_new::Fragment_c<xmma_new::Ampere_hmma_tf32_traits<unsigned int, float>, xmma_new::Cta_tile<xmma_new::Ampere, 128, 128, 16, 2, 2, 1, 1, 1>, false>, false>, xmma_new::implicit_gemm::Input_related<0, 0, 0, false>, 4>::Params), 2023-Oct-31 16:36:45, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.avg                                                                  22,009.65
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.max                                                                     23,699
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.min                                                                     20,854
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.sum                                                                  2,377,042
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.avg                                                                 0
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.max                                                                 0
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.min                                                                 0
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.sum                                                                 0
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.avg                                                        22,009.65
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.max                                                           23,699
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.min                                                           20,854
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.sum                                                        2,377,042
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    smsp__sass_thread_inst_executed_op_ffma_pred_on.sum*2                                                         (!) n/a
+    smsp__sass_thread_inst_executed_op_fmul_pred_on.sum                               inst                     51,380,224
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::unrolled_elementwise_kernel<at::native::BinaryFunctor<float, float, float, at::native::AddFunctor<float> >, at::detail::Array<char*, 3>, OffsetCalculator<2, unsigned int, false>, OffsetCalculator<1, unsigned int, false>, at::native::memory::LoadWithoutCast, at::native::memory::StoreWithoutCast>(int, at::native::BinaryFunctor<float, float, float, at::native::AddFunctor<float> >, at::detail::Array<char*, 3>, OffsetCalculator<2, unsigned int, false>, OffsetCalculator<1, unsigned int, false>, at::native::memory::LoadWithoutCast, at::native::memory::StoreWithoutCast), 2023-Oct-31 16:36:46, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.avg                                                                  23,966.42
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.max                                                                     24,439
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.min                                                                     23,751
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.sum                                                                  2,588,373
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.avg                                                         15,863.21
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.max                                                            16,383
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.min                                                            15,682
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.sum                                                         1,713,227
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.avg                                                         8,103.20
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.max                                                            8,056
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.min                                                            8,069
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.sum                                                          875,146
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    smsp__sass_thread_inst_executed_op_ffma_pred_on.sum*2                                                         (!) n/a
+    smsp__sass_thread_inst_executed_op_fmul_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>), 2023-Oct-31 16:36:48, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.avg                                                                  16,650.20
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.max                                                                     19,345
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.min                                                                     13,908
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.sum                                                                  1,798,222
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.avg                                                          8,809.97
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.max                                                            10,236
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.min                                                             7,372
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.sum                                                           951,477
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.avg                                                         7,840.23
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.max                                                            9,109
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.min                                                            6,536
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.sum                                                          846,745
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    smsp__sass_thread_inst_executed_op_ffma_pred_on.sum*2                                                         (!) n/a
+    smsp__sass_thread_inst_executed_op_fmul_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void nchwToNhwcKernel<float, float, float, true, false, (cudnnKernelDataType_t)2>(int, int, int, int, float const*, float*, float, float), 2023-Oct-31 16:36:49, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.avg                                                                  17,861.53
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.max                                                                     19,042
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.min                                                                     16,424
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.sum                                                                  1,929,045
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.avg                                                          8,852.40
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.max                                                             9,517
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.min                                                             7,967
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.sum                                                           956,059
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.avg                                                         9,009.13
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.max                                                            9,525
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.min                                                            8,457
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.sum                                                          972,986
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    smsp__sass_thread_inst_executed_op_ffma_pred_on.sum*2                                                         (!) n/a
+    smsp__sass_thread_inst_executed_op_fmul_pred_on.sum                               inst                     25,690,112
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void nchwToNhwcKernel<float, float, float, true, false, (cudnnKernelDataType_t)2>(int, int, int, int, float const*, float*, float, float), 2023-Oct-31 16:36:50, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.avg                                                                   3,466.31
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.max                                                                      3,600
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.min                                                                      3,277
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.sum                                                                    374,361
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.avg                                                          2,582.98
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.max                                                             2,718
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.min                                                             2,394
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.sum                                                           278,962
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.avg                                                           883.32
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.max                                                              882
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.min                                                              883
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.sum                                                           95,399
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    smsp__sass_thread_inst_executed_op_ffma_pred_on.sum*2                                                         (!) n/a
+    smsp__sass_thread_inst_executed_op_fmul_pred_on.sum                               inst                      2,359,296
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void xmma_new::gemm::kernel<xmma_new::implicit_gemm::fprop::Kernel_traits<xmma_new::Ampere_hmma_tf32_traits<unsigned int, float>, xmma_new::Cta_tile<xmma_new::Ampere, 128, 128, 16, 2, 2, 1, 1, 1>, xmma_new::implicit_gemm::fprop::Gmem_tile_a_t<xmma_new::Ampere_hmma_tf32_traits<unsigned int, float>, xmma_new::Cta_tile<xmma_new::Ampere, 128, 128, 16, 2, 2, 1, 1, 1>, xmma_new::implicit_gemm::Input_related<0, 0, 0, false>, 16, false, xmma_new::implicit_gemm::fprop::Gmem_tile_base_a<xmma_new::Ampere_hmma_tf32_traits<unsigned int, float>, xmma_new::Cta_tile<xmma_new::Ampere, 128, 128, 16, 2, 2, 1, 1, 1>, xmma_new::implicit_gemm::Input_related<0, 0, 0, false>, 16, xmma_new::Row, 16, 128> >, xmma_new::implicit_gemm::fprop::Gmem_tile_c_n<xmma_new::Ampere_hmma_tf32_traits<unsigned int, float>, xmma_new::Cta_tile<xmma_new::Ampere, 128, 128, 16, 2, 2, 1, 1, 1>, 16, xmma_new::Fragment_c<xmma_new::Ampere_hmma_tf32_traits<unsigned int, float>, xmma_new::Cta_tile<xmma_new::Ampere, 128, 128, 16, 2, 2, 1, 1, 1>, false>, false>, xmma_new::implicit_gemm::Input_related<0, 0, 0, false>, 4> >(xmma_new::implicit_gemm::fprop::Kernel_traits<xmma_new::Ampere_hmma_tf32_traits<unsigned int, float>, xmma_new::Cta_tile<xmma_new::Ampere, 128, 128, 16, 2, 2, 1, 1, 1>, xmma_new::implicit_gemm::fprop::Gmem_tile_a_t<xmma_new::Ampere_hmma_tf32_traits<unsigned int, float>, xmma_new::Cta_tile<xmma_new::Ampere, 128, 128, 16, 2, 2, 1, 1, 1>, xmma_new::implicit_gemm::Input_related<0, 0, 0, false>, 16, false, xmma_new::implicit_gemm::fprop::Gmem_tile_base_a<xmma_new::Ampere_hmma_tf32_traits<unsigned int, float>, xmma_new::Cta_tile<xmma_new::Ampere, 128, 128, 16, 2, 2, 1, 1, 1>, xmma_new::implicit_gemm::Input_related<0, 0, 0, false>, 16, xmma_new::Row, 16, 128> >, xmma_new::implicit_gemm::fprop::Gmem_tile_c_n<xmma_new::Ampere_hmma_tf32_traits<unsigned int, float>, xmma_new::Cta_tile<xmma_new::Ampere, 128, 128, 16, 2, 2, 1, 1, 1>, 16, xmma_new::Fragment_c<xmma_new::Ampere_hmma_tf32_traits<unsigned int, float>, xmma_new::Cta_tile<xmma_new::Ampere, 128, 128, 16, 2, 2, 1, 1, 1>, false>, false>, xmma_new::implicit_gemm::Input_related<0, 0, 0, false>, 4>::Params), 2023-Oct-31 16:36:51, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.avg                                                                  34,559.60
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.max                                                                     36,355
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.min                                                                     32,654
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.sum                                                                  3,732,437
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.avg                                                                 0
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.max                                                                 0
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.min                                                                 0
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.sum                                                                 0
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.avg                                                        34,559.60
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.max                                                           36,355
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.min                                                           32,654
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.sum                                                        3,732,437
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    smsp__sass_thread_inst_executed_op_ffma_pred_on.sum*2                                                         (!) n/a
+    smsp__sass_thread_inst_executed_op_fmul_pred_on.sum                               inst                     51,380,224
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::unrolled_elementwise_kernel<at::native::BinaryFunctor<float, float, float, at::native::AddFunctor<float> >, at::detail::Array<char*, 3>, OffsetCalculator<2, unsigned int, false>, OffsetCalculator<1, unsigned int, false>, at::native::memory::LoadWithoutCast, at::native::memory::StoreWithoutCast>(int, at::native::BinaryFunctor<float, float, float, at::native::AddFunctor<float> >, at::detail::Array<char*, 3>, OffsetCalculator<2, unsigned int, false>, OffsetCalculator<1, unsigned int, false>, at::native::memory::LoadWithoutCast, at::native::memory::StoreWithoutCast), 2023-Oct-31 16:36:52, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.avg                                                                  23,966.25
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.max                                                                     24,441
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.min                                                                     23,756
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.sum                                                                  2,588,355
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.avg                                                         15,865.85
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.max                                                            16,111
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.min                                                            15,745
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.sum                                                         1,713,512
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.avg                                                         8,100.40
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.max                                                            8,330
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.min                                                            8,011
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.sum                                                          874,843
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    smsp__sass_thread_inst_executed_op_ffma_pred_on.sum*2                                                         (!) n/a
+    smsp__sass_thread_inst_executed_op_fmul_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>), 2023-Oct-31 16:36:53, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.avg                                                                  16,701.62
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.max                                                                     19,440
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.min                                                                     13,831
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.sum                                                                  1,803,775
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.avg                                                          8,783.32
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.max                                                             9,929
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.min                                                             7,661
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.sum                                                           948,599
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.avg                                                         7,918.30
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.max                                                            9,511
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.min                                                            6,170
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.sum                                                          855,176
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    smsp__sass_thread_inst_executed_op_ffma_pred_on.sum*2                                                         (!) n/a
+    smsp__sass_thread_inst_executed_op_fmul_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::(anonymous namespace)::max_pool_forward_nchw<float, float>(int, float const*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, float*, long*), 2023-Oct-31 16:36:54, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.avg                                                                  32,210.88
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.max                                                                     32,965
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.min                                                                     31,372
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.sum                                                                  3,478,775
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.avg                                                         26,051.71
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.max                                                            26,854
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.min                                                            25,307
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.sum                                                         2,813,585
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.avg                                                         6,159.17
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.max                                                            6,111
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.min                                                            6,065
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.sum                                                          665,190
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    smsp__sass_thread_inst_executed_op_ffma_pred_on.sum*2                                                         (!) n/a
+    smsp__sass_thread_inst_executed_op_fmul_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void nchwToNhwcKernel<float, float, float, true, false, (cudnnKernelDataType_t)2>(int, int, int, int, float const*, float*, float, float), 2023-Oct-31 16:36:55, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.avg                                                                   4,987.05
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.max                                                                      5,767
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.min                                                                      4,290
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.sum                                                                    538,601
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.avg                                                          2,615.17
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.max                                                             2,960
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.min                                                             2,212
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.sum                                                           282,438
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.avg                                                         2,371.88
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.max                                                            2,807
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.min                                                            2,078
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.sum                                                          256,163
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    smsp__sass_thread_inst_executed_op_ffma_pred_on.sum*2                                                         (!) n/a
+    smsp__sass_thread_inst_executed_op_fmul_pred_on.sum                               inst                      6,422,528
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void nchwToNhwcKernel<float, float, float, true, false, (cudnnKernelDataType_t)2>(int, int, int, int, float const*, float*, float, float), 2023-Oct-31 16:36:56, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.avg                                                                   3,469.57
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.max                                                                      3,723
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.min                                                                      3,247
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.sum                                                                    374,714
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.avg                                                          2,589.57
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.max                                                             2,730
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.min                                                             2,442
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.sum                                                           279,674
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.avg                                                              880
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.max                                                              993
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.min                                                              805
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.sum                                                           95,040
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    smsp__sass_thread_inst_executed_op_ffma_pred_on.sum*2                                                         (!) n/a
+    smsp__sass_thread_inst_executed_op_fmul_pred_on.sum                               inst                      2,359,296
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void xmma_new::gemm::kernel<xmma_new::implicit_gemm::fprop::Kernel_traits<xmma_new::Ampere_hmma_tf32_traits<unsigned int, float>, xmma_new::Cta_tile<xmma_new::Ampere, 256, 128, 32, 4, 2, 1, 1, 1>, xmma_new::implicit_gemm::fprop::Gmem_tile_a_t<xmma_new::Ampere_hmma_tf32_traits<unsigned int, float>, xmma_new::Cta_tile<xmma_new::Ampere, 256, 128, 32, 4, 2, 1, 1, 1>, xmma_new::implicit_gemm::Input_related<1, 3, 3, false>, 16, false, xmma_new::implicit_gemm::fprop::Gmem_tile_base_a<xmma_new::Ampere_hmma_tf32_traits<unsigned int, float>, xmma_new::Cta_tile<xmma_new::Ampere, 256, 128, 32, 4, 2, 1, 1, 1>, xmma_new::implicit_gemm::Input_related<1, 3, 3, false>, 16, xmma_new::Row, 32, 256> >, xmma_new::implicit_gemm::fprop::Gmem_tile_c_n<xmma_new::Ampere_hmma_tf32_traits<unsigned int, float>, xmma_new::Cta_tile<xmma_new::Ampere, 256, 128, 32, 4, 2, 1, 1, 1>, 16, xmma_new::Fragment_c<xmma_new::Ampere_hmma_tf32_traits<unsigned int, float>, xmma_new::Cta_tile<xmma_new::Ampere, 256, 128, 32, 4, 2, 1, 1, 1>, false>, false>, xmma_new::implicit_gemm::Input_related<1, 3, 3, false>, 3> >(xmma_new::implicit_gemm::fprop::Kernel_traits<xmma_new::Ampere_hmma_tf32_traits<unsigned int, float>, xmma_new::Cta_tile<xmma_new::Ampere, 256, 128, 32, 4, 2, 1, 1, 1>, xmma_new::implicit_gemm::fprop::Gmem_tile_a_t<xmma_new::Ampere_hmma_tf32_traits<unsigned int, float>, xmma_new::Cta_tile<xmma_new::Ampere, 256, 128, 32, 4, 2, 1, 1, 1>, xmma_new::implicit_gemm::Input_related<1, 3, 3, false>, 16, false, xmma_new::implicit_gemm::fprop::Gmem_tile_base_a<xmma_new::Ampere_hmma_tf32_traits<unsigned int, float>, xmma_new::Cta_tile<xmma_new::Ampere, 256, 128, 32, 4, 2, 1, 1, 1>, xmma_new::implicit_gemm::Input_related<1, 3, 3, false>, 16, xmma_new::Row, 32, 256> >, xmma_new::implicit_gemm::fprop::Gmem_tile_c_n<xmma_new::Ampere_hmma_tf32_traits<unsigned int, float>, xmma_new::Cta_tile<xmma_new::Ampere, 256, 128, 32, 4, 2, 1, 1, 1>, 16, xmma_new::Fragment_c<xmma_new::Ampere_hmma_tf32_traits<unsigned int, float>, xmma_new::Cta_tile<xmma_new::Ampere, 256, 128, 32, 4, 2, 1, 1, 1>, false>, false>, xmma_new::implicit_gemm::Input_related<1, 3, 3, false>, 3>::Params), 2023-Oct-31 16:36:58, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.avg                                                                   5,187.50
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.max                                                                      6,026
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.min                                                                      2,686
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.sum                                                                    560,250
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.avg                                                                 0
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.max                                                                 0
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.min                                                                 0
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.sum                                                                 0
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.avg                                                         5,187.50
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.max                                                            6,026
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.min                                                            2,686
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.sum                                                          560,250
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    smsp__sass_thread_inst_executed_op_ffma_pred_on.sum*2                                                         (!) n/a
+    smsp__sass_thread_inst_executed_op_fmul_pred_on.sum                               inst                     12,845,056
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::unrolled_elementwise_kernel<at::native::BinaryFunctor<float, float, float, at::native::AddFunctor<float> >, at::detail::Array<char*, 3>, OffsetCalculator<2, unsigned int, false>, OffsetCalculator<1, unsigned int, false>, at::native::memory::LoadWithoutCast, at::native::memory::StoreWithoutCast>(int, at::native::BinaryFunctor<float, float, float, at::native::AddFunctor<float> >, at::detail::Array<char*, 3>, OffsetCalculator<2, unsigned int, false>, OffsetCalculator<1, unsigned int, false>, at::native::memory::LoadWithoutCast, at::native::memory::StoreWithoutCast), 2023-Oct-31 16:36:59, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.avg                                                                   6,075.11
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.max                                                                      6,187
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.min                                                                      5,942
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.sum                                                                    656,112
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.avg                                                          3,994.95
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.max                                                             4,063
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.min                                                             3,913
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.sum                                                           431,455
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.avg                                                         2,080.16
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.max                                                            2,124
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.min                                                            2,029
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.sum                                                          224,657
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    smsp__sass_thread_inst_executed_op_ffma_pred_on.sum*2                                                         (!) n/a
+    smsp__sass_thread_inst_executed_op_fmul_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>), 2023-Oct-31 16:37:00, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.avg                                                                   4,371.41
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.max                                                                      5,000
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.min                                                                      3,949
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.sum                                                                    472,112
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.avg                                                          2,441.20
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.max                                                             2,874
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.min                                                             2,120
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.sum                                                           263,650
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.avg                                                         1,930.20
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.max                                                            2,126
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.min                                                            1,829
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.sum                                                          208,462
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    smsp__sass_thread_inst_executed_op_ffma_pred_on.sum*2                                                         (!) n/a
+    smsp__sass_thread_inst_executed_op_fmul_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void nchwToNhwcKernel<float, float, float, true, false, (cudnnKernelDataType_t)2>(int, int, int, int, float const*, float*, float, float), 2023-Oct-31 16:37:01, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.avg                                                                   4,979.32
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.max                                                                      5,751
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.min                                                                      4,262
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.sum                                                                    537,767
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.avg                                                          2,618.29
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.max                                                             2,995
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.min                                                             2,313
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.sum                                                           282,775
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.avg                                                         2,361.04
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.max                                                            2,756
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.min                                                            1,949
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.sum                                                          254,992
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    smsp__sass_thread_inst_executed_op_ffma_pred_on.sum*2                                                         (!) n/a
+    smsp__sass_thread_inst_executed_op_fmul_pred_on.sum                               inst                      6,422,528
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void nchwToNhwcKernel<float, float, float, true, false, (cudnnKernelDataType_t)2>(int, int, int, int, float const*, float*, float, float), 2023-Oct-31 16:37:02, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.avg                                                                   3,461.41
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.max                                                                      3,702
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.min                                                                      3,199
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.sum                                                                    373,832
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.avg                                                          2,586.91
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.max                                                             2,743
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.min                                                             2,407
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.sum                                                           279,386
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.avg                                                           874.50
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.max                                                              959
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.min                                                              792
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.sum                                                           94,446
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    smsp__sass_thread_inst_executed_op_ffma_pred_on.sum*2                                                         (!) n/a
+    smsp__sass_thread_inst_executed_op_fmul_pred_on.sum                               inst                      2,359,296
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void xmma_new::gemm::kernel<xmma_new::implicit_gemm::fprop::Kernel_traits<xmma_new::Ampere_hmma_tf32_traits<unsigned int, float>, xmma_new::Cta_tile<xmma_new::Ampere, 256, 128, 32, 4, 2, 1, 1, 1>, xmma_new::implicit_gemm::fprop::Gmem_tile_a_t<xmma_new::Ampere_hmma_tf32_traits<unsigned int, float>, xmma_new::Cta_tile<xmma_new::Ampere, 256, 128, 32, 4, 2, 1, 1, 1>, xmma_new::implicit_gemm::Input_related<1, 3, 3, false>, 16, false, xmma_new::implicit_gemm::fprop::Gmem_tile_base_a<xmma_new::Ampere_hmma_tf32_traits<unsigned int, float>, xmma_new::Cta_tile<xmma_new::Ampere, 256, 128, 32, 4, 2, 1, 1, 1>, xmma_new::implicit_gemm::Input_related<1, 3, 3, false>, 16, xmma_new::Row, 32, 256> >, xmma_new::implicit_gemm::fprop::Gmem_tile_c_n<xmma_new::Ampere_hmma_tf32_traits<unsigned int, float>, xmma_new::Cta_tile<xmma_new::Ampere, 256, 128, 32, 4, 2, 1, 1, 1>, 16, xmma_new::Fragment_c<xmma_new::Ampere_hmma_tf32_traits<unsigned int, float>, xmma_new::Cta_tile<xmma_new::Ampere, 256, 128, 32, 4, 2, 1, 1, 1>, false>, false>, xmma_new::implicit_gemm::Input_related<1, 3, 3, false>, 3> >(xmma_new::implicit_gemm::fprop::Kernel_traits<xmma_new::Ampere_hmma_tf32_traits<unsigned int, float>, xmma_new::Cta_tile<xmma_new::Ampere, 256, 128, 32, 4, 2, 1, 1, 1>, xmma_new::implicit_gemm::fprop::Gmem_tile_a_t<xmma_new::Ampere_hmma_tf32_traits<unsigned int, float>, xmma_new::Cta_tile<xmma_new::Ampere, 256, 128, 32, 4, 2, 1, 1, 1>, xmma_new::implicit_gemm::Input_related<1, 3, 3, false>, 16, false, xmma_new::implicit_gemm::fprop::Gmem_tile_base_a<xmma_new::Ampere_hmma_tf32_traits<unsigned int, float>, xmma_new::Cta_tile<xmma_new::Ampere, 256, 128, 32, 4, 2, 1, 1, 1>, xmma_new::implicit_gemm::Input_related<1, 3, 3, false>, 16, xmma_new::Row, 32, 256> >, xmma_new::implicit_gemm::fprop::Gmem_tile_c_n<xmma_new::Ampere_hmma_tf32_traits<unsigned int, float>, xmma_new::Cta_tile<xmma_new::Ampere, 256, 128, 32, 4, 2, 1, 1, 1>, 16, xmma_new::Fragment_c<xmma_new::Ampere_hmma_tf32_traits<unsigned int, float>, xmma_new::Cta_tile<xmma_new::Ampere, 256, 128, 32, 4, 2, 1, 1, 1>, false>, false>, xmma_new::implicit_gemm::Input_related<1, 3, 3, false>, 3>::Params), 2023-Oct-31 16:37:04, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.avg                                                                   5,186.46
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.max                                                                      5,971
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.min                                                                      2,692
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.sum                                                                    560,138
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.avg                                                                 0
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.max                                                                 0
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.min                                                                 0
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.sum                                                                 0
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.avg                                                         5,186.46
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.max                                                            5,971
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.min                                                            2,692
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.sum                                                          560,138
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    smsp__sass_thread_inst_executed_op_ffma_pred_on.sum*2                                                         (!) n/a
+    smsp__sass_thread_inst_executed_op_fmul_pred_on.sum                               inst                     12,845,056
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::unrolled_elementwise_kernel<at::native::BinaryFunctor<float, float, float, at::native::AddFunctor<float> >, at::detail::Array<char*, 3>, OffsetCalculator<2, unsigned int, false>, OffsetCalculator<1, unsigned int, false>, at::native::memory::LoadWithoutCast, at::native::memory::StoreWithoutCast>(int, at::native::BinaryFunctor<float, float, float, at::native::AddFunctor<float> >, at::detail::Array<char*, 3>, OffsetCalculator<2, unsigned int, false>, OffsetCalculator<1, unsigned int, false>, at::native::memory::LoadWithoutCast, at::native::memory::StoreWithoutCast), 2023-Oct-31 16:37:05, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.avg                                                                   6,065.76
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.max                                                                      6,174
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.min                                                                      5,942
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.sum                                                                    655,102
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.avg                                                          3,986.28
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.max                                                             4,058
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.min                                                             3,881
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.sum                                                           430,518
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.avg                                                         2,079.48
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.max                                                            2,116
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.min                                                            2,061
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.sum                                                          224,584
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    smsp__sass_thread_inst_executed_op_ffma_pred_on.sum*2                                                         (!) n/a
+    smsp__sass_thread_inst_executed_op_fmul_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>), 2023-Oct-31 16:37:06, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.avg                                                                   4,380.81
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.max                                                                      5,029
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.min                                                                      3,823
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.sum                                                                    473,127
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.avg                                                          2,426.70
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.max                                                             2,826
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.min                                                             2,100
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.sum                                                           262,084
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.avg                                                         1,954.10
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.max                                                            2,203
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.min                                                            1,723
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.sum                                                          211,043
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    smsp__sass_thread_inst_executed_op_ffma_pred_on.sum*2                                                         (!) n/a
+    smsp__sass_thread_inst_executed_op_fmul_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::(anonymous namespace)::max_pool_forward_nchw<float, float>(int, float const*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, float*, long*), 2023-Oct-31 16:37:07, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.avg                                                                   9,428.70
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.max                                                                     10,050
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.min                                                                      8,923
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.sum                                                                  1,018,300
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.avg                                                          7,856.70
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.max                                                             8,315
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.min                                                             7,411
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.sum                                                           848,524
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.avg                                                         1,572.00
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.max                                                            1,735
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.min                                                            1,512
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.sum                                                          169,776
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    smsp__sass_thread_inst_executed_op_ffma_pred_on.sum*2                                                         (!) n/a
+    smsp__sass_thread_inst_executed_op_fmul_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::(anonymous namespace)::adaptive_average_pool<float>(float*, float*, int, int, int, int, long, long, long), 2023-Oct-31 16:37:08, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.avg                                                                   4,922.83
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.max                                                                      5,036
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.min                                                                      4,807
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.sum                                                                    531,666
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.avg                                                          2,242.38
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.max                                                             2,299
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.min                                                             2,196
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.sum                                                           242,177
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.avg                                                         2,680.45
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.max                                                            2,737
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.min                                                            2,611
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.sum                                                          289,489
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                     20,093,024
+    smsp__sass_thread_inst_executed_op_ffma_pred_on.sum*2                                                         (!) n/a
+    smsp__sass_thread_inst_executed_op_fmul_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::unrolled_elementwise_kernel<at::native::copy_device_to_device(at::TensorIterator&, bool)::{lambda()#3}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>, OffsetCalculator<1, unsigned int, false>, char*, at::native::memory::LoadWithoutCast, at::detail::Array<char*, 2>::StoreWithoutCast>(int, at::native::copy_device_to_device(at::TensorIterator&, bool)::{lambda()#3}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>, OffsetCalculator<1, unsigned int, false>, char*, at::native::memory::LoadWithoutCast, at::detail::Array<char*, 2>::StoreWithoutCast), 2023-Oct-31 16:37:09, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.avg                                                                     151.70
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.max                                                                        160
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.min                                                                        144
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.sum                                                                     16,384
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.avg                                                             75.85
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.max                                                                80
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.min                                                                72
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.sum                                                             8,192
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.avg                                                            75.85
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.max                                                               80
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.min                                                               72
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.sum                                                            8,192
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    smsp__sass_thread_inst_executed_op_ffma_pred_on.sum*2                                                         (!) n/a
+    smsp__sass_thread_inst_executed_op_fmul_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void cutlass::Kernel<cutlass_80_tensorop_s1688gemm_128x64_32x6_tn_align4>(cutlass_80_tensorop_s1688gemm_128x64_32x6_tn_align4::Params), 2023-Oct-31 16:37:11, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.avg                                                                   2,388.62
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.max                                                                      3,595
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.min                                                                          0
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.sum                                                                    257,971
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.avg                                                            353.14
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.max                                                               636
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.min                                                                 0
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.sum                                                            38,139
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.avg                                                         2,035.48
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.max                                                            2,959
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.min                                                                0
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.sum                                                          219,832
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    smsp__sass_thread_inst_executed_op_ffma_pred_on.sum*2                                                         (!) n/a
+    smsp__sass_thread_inst_executed_op_fmul_pred_on.sum                               inst                        786,432
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>), 2023-Oct-31 16:37:12, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.avg                                                                     173.81
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.max                                                                        223
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.min                                                                        144
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.sum                                                                     18,772
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.avg                                                             88.19
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.max                                                               124
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.min                                                                72
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.sum                                                             9,525
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.avg                                                            85.62
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.max                                                               99
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.min                                                               72
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.sum                                                            9,247
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    smsp__sass_thread_inst_executed_op_ffma_pred_on.sum*2                                                         (!) n/a
+    smsp__sass_thread_inst_executed_op_fmul_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::(anonymous namespace)::fused_dropout_kernel_vec<float, float, unsigned int, 1, 4>(at::cuda::detail::TensorInfo<float, unsigned int>, at::cuda::detail::TensorInfo<float, unsigned int>, at::cuda::detail::TensorInfo<unsigned char, unsigned int>, unsigned int, float, at::PhiloxCudaState), 2023-Oct-31 16:37:13, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.avg                                                                     207.82
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.max                                                                        408
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.min                                                                        148
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.sum                                                                     22,445
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.avg                                                             90.61
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.max                                                               178
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.min                                                                64
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.sum                                                             9,786
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.avg                                                           117.21
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.max                                                              230
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.min                                                               84
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.sum                                                           12,659
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                         65,536
+    smsp__sass_thread_inst_executed_op_ffma_pred_on.sum*2                                                         (!) n/a
+    smsp__sass_thread_inst_executed_op_fmul_pred_on.sum                               inst                        262,144
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::unrolled_elementwise_kernel<at::native::copy_device_to_device(at::TensorIterator&, bool)::{lambda()#3}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>, OffsetCalculator<1, unsigned int, false>, char*, at::native::memory::LoadWithoutCast, at::detail::Array<char*, 2>::StoreWithoutCast>(int, at::native::copy_device_to_device(at::TensorIterator&, bool)::{lambda()#3}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>, OffsetCalculator<1, unsigned int, false>, char*, at::native::memory::LoadWithoutCast, at::detail::Array<char*, 2>::StoreWithoutCast), 2023-Oct-31 16:37:14, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.avg                                                                     151.70
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.max                                                                        160
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.min                                                                        144
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.sum                                                                     16,384
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.avg                                                             75.85
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.max                                                                80
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.min                                                                72
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.sum                                                             8,192
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.avg                                                            75.85
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.max                                                               80
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.min                                                               72
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.sum                                                            8,192
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    smsp__sass_thread_inst_executed_op_ffma_pred_on.sum*2                                                         (!) n/a
+    smsp__sass_thread_inst_executed_op_fmul_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void cutlass::Kernel<cutlass_80_tensorop_s1688gemm_128x128_32x3_tn_align4>(cutlass_80_tensorop_s1688gemm_128x128_32x3_tn_align4::Params), 2023-Oct-31 16:37:16, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.avg                                                                     597.34
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.max                                                                      1,074
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.min                                                                          0
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.sum                                                                     64,513
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.avg                                                            159.47
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.max                                                               285
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.min                                                                 0
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.sum                                                            17,223
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.avg                                                           437.87
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.max                                                              789
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.min                                                                0
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.sum                                                           47,290
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    smsp__sass_thread_inst_executed_op_ffma_pred_on.sum*2                                                         (!) n/a
+    smsp__sass_thread_inst_executed_op_fmul_pred_on.sum                               inst                      1,048,576
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>), 2023-Oct-31 16:37:17, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.avg                                                                     172.81
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.max                                                                        223
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.min                                                                        144
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.sum                                                                     18,664
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.avg                                                             86.02
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.max                                                               126
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.min                                                                72
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.sum                                                             9,290
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.avg                                                            86.80
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.max                                                               97
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.min                                                               72
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.sum                                                            9,374
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    smsp__sass_thread_inst_executed_op_ffma_pred_on.sum*2                                                         (!) n/a
+    smsp__sass_thread_inst_executed_op_fmul_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::(anonymous namespace)::fused_dropout_kernel_vec<float, float, unsigned int, 1, 4>(at::cuda::detail::TensorInfo<float, unsigned int>, at::cuda::detail::TensorInfo<float, unsigned int>, at::cuda::detail::TensorInfo<unsigned char, unsigned int>, unsigned int, float, at::PhiloxCudaState), 2023-Oct-31 16:37:18, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.avg                                                                     200.17
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.max                                                                        402
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.min                                                                        148
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.sum                                                                     21,618
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.avg                                                             91.29
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.max                                                               190
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.min                                                                64
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.sum                                                             9,859
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.avg                                                           108.88
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.max                                                              212
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.min                                                               84
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.sum                                                           11,759
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                         65,536
+    smsp__sass_thread_inst_executed_op_ffma_pred_on.sum*2                                                         (!) n/a
+    smsp__sass_thread_inst_executed_op_fmul_pred_on.sum                               inst                        262,144
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::unrolled_elementwise_kernel<at::native::copy_device_to_device(at::TensorIterator&, bool)::{lambda()#3}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>, OffsetCalculator<1, unsigned int, false>, char*, at::native::memory::LoadWithoutCast, at::detail::Array<char*, 2>::StoreWithoutCast>(int, at::native::copy_device_to_device(at::TensorIterator&, bool)::{lambda()#3}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>, OffsetCalculator<1, unsigned int, false>, char*, at::native::memory::LoadWithoutCast, at::detail::Array<char*, 2>::StoreWithoutCast), 2023-Oct-31 16:37:19, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.avg                                                                      38.44
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.max                                                                         52
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.min                                                                         32
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.sum                                                                      4,151
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.avg                                                             19.94
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.max                                                                28
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.min                                                                16
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.sum                                                             2,154
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.avg                                                            18.49
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.max                                                               24
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.min                                                               16
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.sum                                                            1,997
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    smsp__sass_thread_inst_executed_op_ffma_pred_on.sum*2                                                         (!) n/a
+    smsp__sass_thread_inst_executed_op_fmul_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void cutlass::Kernel<cutlass_80_tensorop_s1688gemm_64x64_32x6_tn_align4>(cutlass_80_tensorop_s1688gemm_64x64_32x6_tn_align4::Params), 2023-Oct-31 16:37:20, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.avg                                                                     253.73
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.max                                                                        357
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.min                                                                          0
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.sum                                                                     27,403
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.avg                                                                 0
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.max                                                                 0
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.min                                                                 0
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.sum                                                                 0
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.avg                                                           253.73
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.max                                                              357
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.min                                                                0
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.sum                                                           27,403
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    smsp__sass_thread_inst_executed_op_ffma_pred_on.sum*2                                                         (!) n/a
+    smsp__sass_thread_inst_executed_op_fmul_pred_on.sum                               inst                        327,680
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void splitKreduce_kernel<float, float, float, float>(cublasSplitKParams<float>, float const*, float const*, float*, float const*, float const*, float const*), 2023-Oct-31 16:37:21, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.avg                                                                     131.67
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.max                                                                        150
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.min                                                                        112
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.sum                                                                     14,220
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.avg                                                            112.40
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.max                                                               129
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.min                                                                96
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.sum                                                            12,139
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.avg                                                            19.27
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.max                                                               21
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.min                                                               16
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.sum                                                            2,081
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                        384,000
+    smsp__sass_thread_inst_executed_op_ffma_pred_on.sum*2                                                         (!) n/a
+    smsp__sass_thread_inst_executed_op_fmul_pred_on.sum                               inst                         64,000
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void (anonymous namespace)::softmax_warp_forward<float, float, float, 10, true>(float*, float const*, int, int, int), 2023-Oct-31 16:37:22, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.avg                                                                      38.81
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.max                                                                        263
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.min                                                                          0
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.sum                                                                      4,192
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.avg                                                             19.85
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.max                                                               135
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.min                                                                 0
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.sum                                                             2,144
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.avg                                                            18.96
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.max                                                              128
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.min                                                                0
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.sum                                                            2,048
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                        207,360
+    smsp__sass_thread_inst_executed_op_ffma_pred_on.sum*2                                                         (!) n/a
+    smsp__sass_thread_inst_executed_op_fmul_pred_on.sum                               inst                          2,048
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::(anonymous namespace)::nll_loss_forward_reduce_cuda_kernel_2d<float, float, long>(float*, float*, float*, long*, float*, bool, int, int, int, long), 2023-Oct-31 16:37:24, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.avg                                                                       0.28
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.max                                                                         30
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.min                                                                          0
+    l1tex__data_pipe_lsu_wavefronts_mem_lg.sum                                                                         30
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.avg                                                              0.24
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.max                                                                26
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.min                                                                 0
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_read.sum                                                                26
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.avg                                                             0.04
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.max                                                                4
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.min                                                                0
+    l1tex__data_pipe_lsu_wavefronts_mem_lg_cmd_write.sum                                                                4
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                            129
+    smsp__sass_thread_inst_executed_op_ffma_pred_on.sum*2                                                         (!) n/a
+    smsp__sass_thread_inst_executed_op_fmul_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+
+real	1m49.732s
+user	0m59.166s
+sys	0m40.310s
